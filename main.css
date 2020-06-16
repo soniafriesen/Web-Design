@@ -1,0 +1,273 @@
+nav, section, aside 
+{
+    display: block;
+}
+body{
+	margin: 0;
+	background: white;
+	font: 100%/1.4 Georgia, serif;
+	
+}
+
+#wrap {
+	width: 90%;
+	margin: 0 auto;
+	background: #fff;
+	max-width: 960px;
+}
+header{
+    background-color: black;
+}
+header img{
+    margin-left: 450px
+}
+
+/***************** nav bar *******************/
+
+nav {
+	width: 90%;	
+	text-align: center;
+    padding-left: 25px;
+    
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+    
+}
+
+nav li {
+	float: left;
+}
+
+nav a {
+	display: block;
+	font: 1.2em 'Permanent Marker' , sans-serif;     
+	width: 6em; 
+	padding: 2.2em;   
+    margin: auto;
+	border-radius: 75px 0 75px 0;
+	text-decoration: none;
+	opacity: 0.75;	
+	transition: all .5s ease-out; 
+    background-color: black;
+}
+a[href="Introduction.html"]{color: #dd0d0d;}
+a[href="Hits.html"]{color: #f6ff00;}
+a[href="LiveAid.html"]{color: #42c5ff;}
+a[href="QueenNow.html"]{color: #18d352;}
+
+nav a:hover {
+	border-radius: 0 50px 0 50px;
+	opacity: 1;
+}
+
+.rotateleft {
+	transform: rotate(-2deg);
+}
+
+.rotateright {
+	transform: rotate(2deg);
+}
+
+
+section {
+    float: right;	
+	padding-top: 1em;
+    font: 1.3em 'Acme', sans-serif;
+    padding-bottom: none;
+    margin: none;
+}
+
+section img{
+    padding-bottom: 20px;
+    padding: 1em
+}
+
+h1{
+    font-size: 3em;
+    font-family:  'Fascinate Inline', sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+}
+
+aside{
+    clear: both;
+	padding: 1em;
+    font: 1.3em 'Acme', sans-serif;   
+}
+h2{
+    font: 2.5em 'Fascinate Inline', sans-serif;
+    padding-top: none;
+    margin: none;    
+}
+aside img {
+    padding-bottom: 1em;    
+	vertical-align: middle; 
+}
+aside {
+    padding-top: 0;
+    margin: auto;
+}
+aside ul{
+    
+    list-style: none;
+	padding: 0;
+}
+aside li {
+    float:left;	
+    padding: 1em;
+    margin: auto;
+}
+aside iframe{
+    float: right;    
+}
+
+footer{
+    clear: both;
+    float: left;
+    width: 100%;
+    background-color: #716d6d;
+    color: white;
+}
+footer p{
+    margin-left: 10px;
+    color: #ffffff;
+}
+
+@media screen and (max-width:868px){
+    #wrap{
+        width: 100%;
+    }
+   	header img{
+         display: block;
+        margin: 0;
+        width: 100%;
+        height: auto;                   
+	}
+    h1{
+        font: 2.4em 'Fascinate Inline',san-serif; 
+        padding-left: 3%;
+    }
+    h2{
+         font: 2.4em 'Fascinate Inline',san-serif; 
+        padding-left: 3%;
+    }
+    section{
+        border: none;
+        text-align:justify;
+        padding-left: 15px;
+        padding-right: 15px;
+    } 
+    section img{
+        width: 100%;
+        height: auto;       
+    }
+    
+    
+    
+    aside img{
+        width: 100%;
+        height: auto;
+    }
+    aside{
+        border: none;
+        text-align: left;
+    }
+    aside iframe{
+        width: 100%;
+        height: auto;
+    }
+    
+	nav{
+		float:none;
+		width:100%;
+		text-align:center;
+	}
+	
+	nav li{
+		display:block;
+		padding:5% 1.5%;
+		border-bottom:1px solid #666;
+	}
+    
+    footer{       
+        float: left;
+        width: 100%;
+        background-color: #716d6d;
+        color: white;
+    }   
+    
+    
+}
+
+@media screen and (max-width:500px){
+	#wrap{
+        width: 50%;
+    }
+    header img{
+        display: block;
+        margin: 0;
+        width: 100%;
+        height: auto;       
+        
+                  
+	}
+    h1{
+        font: 2.4em 'Fascinate Inline',san-serif; 
+        padding-left: 3%;
+    }
+    h2{
+        font: 2em 'Fascinate Inline',san-serif; 
+        margin: none;
+          
+    }
+    section{        
+        text-align:justify;
+        padding: none;
+        margin: 0;
+        width: 100%;
+        
+    } 
+    section img{
+        width: 100%;
+        height: auto;
+        padding-right: 15px;
+    }
+    
+    
+    aside img{
+        width: 100%;
+        height: auto;
+    }
+    aside{
+        border: none;
+        text-align: left;
+    }
+    aside iframe{
+        width: 100%;
+        height: auto;
+    }
+    
+	nav{
+		float:none;
+		width:100%;
+		text-align:center;
+	}
+	
+	nav li{
+		display:block;
+		padding:5% 1.5%;
+		border-bottom:1px solid #666;
+	}
+    
+    footer{       
+        float: left;
+        width: 100%;
+        background-color: #716d6d;
+        color: white;
+    }
+        
+    
